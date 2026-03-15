@@ -1,0 +1,58 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* color-scheme: light dark; */
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#header{
+  background-color: darkgoldenrod;
+}
+
+#flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input-presets{
+  background-color: blueviolet;
+  flex:50%;
+}
+
+#groupList{
+  background-color: chartreuse;
+}
+
+#input-settings{
+  background-color: red;
+}
+
+#train-output{
+  background-color: deeppink;
+  flex: 50%;
+}
+
+#footer{
+  background-color: green;
+}
